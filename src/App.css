@@ -1,4 +1,16 @@
-.App {
+.App{
+  position: relative;
+  overflow-x: clip;
+}
+
+.App > :nth-child(1){
+  background-color: black;
+  position: relative;
+}
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +47,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
